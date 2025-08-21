@@ -1,17 +1,4 @@
-.header {
-  background-color: var(--dark);
-  padding: 20px 30px;
-  text-align: left;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.header h1 {
-  color: var(--yellow);
-}
-
-/* .backdrop {
+.backdrop {
   position: fixed;
   top: 0;
   left: 0;
@@ -29,4 +16,4 @@
   z-index: 1;
   max-height: 80vh;
   overflow-y: auto;
-} */
+}
