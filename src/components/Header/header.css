@@ -10,3 +10,23 @@
 .header h1 {
   color: var(--yellow);
 }
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  background-color: #fff;
+  padding: 20px;
+  z-index: 1;
+  max-height: 80vh;
+  overflow-y: auto;
+}
