@@ -1,0 +1,34 @@
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: red; */
+  height: 300px;
+}
+.item-img {
+  object-fit: cover;
+  transform: scale(0.5);
+  /* width: 50%;
+  height: auto;
+   */
+  transform-origin: left center;
+  border: 1px solid black;
+}
+.item-info {
+  margin-bottom: 5px;
+}
+.qty-button {
+  margin-right: 2px;
+}
+
+.cart-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.black-button {
+  background-color: var(--dark);
+  color: #fff;
+  padding: 5px 12px;
+  border-radius: 8px;
+}
