@@ -1,4 +1,4 @@
-import productsData from "../../data/products.json"; //We have all products in a json file which has an array of various objects
+//import productsData from "../../data/products.json"; //We have all products in a json file which has an array of various objects
 import "./products.css";
 //I want to map productsData, as I want to make a product from the every data in array present in json file, so using map fxn.
 
@@ -18,10 +18,10 @@ function Product({ id, name, image, onAddToCart }) {
   );
 }
 
-function Products({ onAddToCart }) {
+function Products({ products, onAddToCart }) {
   return (
     <div className="products-container">
-      {productsData.map((product) => (
+      {products.map((product) => (
         // <div key={product.id} className="product">
         //   <img
         //     src={require(`../../assets/${product.image}`)}

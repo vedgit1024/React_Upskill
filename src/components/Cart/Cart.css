@@ -1,3 +1,7 @@
+.cart-container {
+  width: 50vw;
+  /* height: 50vh; */
+}
 .cart-item {
   display: flex;
   justify-content: space-between;

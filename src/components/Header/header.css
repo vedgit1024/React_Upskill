@@ -10,6 +10,9 @@
 .header h1 {
   color: var(--yellow);
 }
+.yellow-button {
+  margin-right: 5px;
+}
 
 /* .backdrop {
   position: fixed;

@@ -3,7 +3,7 @@ import "./header.css"; //Imported the header.css file in jsx file header.js, Alt
 
 import Modal from "../UI/Modal.js";
 
-function Header({ openCart }) {
+function Header({ openCart, openAddToProduct }) {
   // const [showCart, setShowCart] = useState(false); //showCart is variable and setShowCart is function
 
   // function openCart() {
@@ -17,6 +17,10 @@ function Header({ openCart }) {
       <h1>My React Store</h1>
 
       <div>
+        {/* Adding "Add Product button" Lect5 */}
+        <button className="yellow-button" onClick={openAddToProduct}>
+          Add Product
+        </button>
         <button className="yellow-button" onClick={openCart}>
           Cart
         </button>
